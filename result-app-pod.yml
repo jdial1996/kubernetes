@@ -9,7 +9,7 @@ spec:
   containers: 
     - name: result-app
       image: dockersamples/examplevotingapp_result
-      port:  #port to be exposed
+      ports:  #port to be exposed
         - containerPort: 80    
 
 # result app exposes port 80 because it's a web application

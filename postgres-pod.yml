@@ -9,7 +9,7 @@ spec:
   containers: 
     - name: postgres
       image: postgres:9.4
-      port:  #port to be exposed
+      ports:  #port to be exposed
         - containerPort: 5432
 
   # 5432 is the defualt port for postgres  

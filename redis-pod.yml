@@ -9,7 +9,7 @@ spec:
   containers: 
     - name: redis
       image: redis
-      port:  #port to be exposed
+      ports:  #port to be exposed
         - containerPort: 6379    
 
 # port is 6379 because that's the defualt port that redis exposes
