@@ -9,5 +9,5 @@ spec:
   containers: 
     - name: voting-app
       image: dockersamples/examplevotingapp_vote
-      port:  #port to be exposed
+      ports:  #port to be exposed
         - containerPort: 80    
